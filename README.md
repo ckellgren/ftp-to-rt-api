@@ -11,7 +11,7 @@ Location with up to 3 manually selected sources (via email):
     'dealer_name': 'sender name',
     'location': 'location_id',
     'template': 'template_id',
-    'sms': False #sms
+    'sms': True #sms
     'autoselect': False,
     'urls': [
         'url_id 1',
