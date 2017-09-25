@@ -5,14 +5,13 @@ import sys
 import os
 import csv
 
-## connect to api
+## Connects to ReviewTrackers API
 r = requests.post('https://api.reviewtrackers.com/auth', headers={
     'content-type': 'application/vnd.rtx.v2.hal+json;charset=utf-8',
     'accept': 'application/hal+json',
 }, auth=('username', 'password'))
 
 response= r.json()
-print response
 
 TOKEN = response['token']
 
@@ -1133,6 +1132,7 @@ REQUESTS = [
     },
 ]
 
+## Searches source files for Recipient data
 def getRecipients(source='', sms=True):
     try:
         rows = list(csv.DictReader(urllib.urlopen(source)))[1:]
@@ -1176,7 +1176,7 @@ def getRecipients(source='', sms=True):
 
     return recipients
 
-
+## Payload for the request
 for request in REQUESTS:
     payload = {
         'sender_name': request['dealer_name'],
@@ -1198,6 +1198,7 @@ for request in REQUESTS:
     else:
         payload['url_ids'] = request['urls']
 
+## Sends campaigns using Recipient data and location data from REQUESTS
     response = requests.post('https://api.reviewtrackers.com/campaigns', headers={
         'accept': 'application/json',
     }, json=payload, auth=('username', TOKEN))
