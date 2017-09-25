@@ -1,10 +1,10 @@
 # ftp-to-rt-api
 ## FTP integration with RT API
 
-### Follow the format below to add a new location.
+#### Follow the format below to add a new location.
 
 
-#### Location with up to 3 manually selected sources (via email):
+Location with up to 3 manually selected sources (via email):
 ```python
  {   
     'source': 'path to download file',
@@ -20,7 +20,7 @@
     ],
     },
 ```    
-#### Location with smart-suggested sources (via sms):
+Location with smart-suggested sources (via sms):
 ```python
     {   
     'source': 'path to download file',
