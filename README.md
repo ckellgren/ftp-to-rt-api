@@ -1,7 +1,7 @@
 # ftp-to-rt-api
 ## FTP integration with RT API
 
-##### Below is the format for adding a new location. 
+##### Add a new location or update an existing location by editing the FTPtoRT.py file following the format below:
 
 
 Location with up to 3 manually selected sources (via email):
