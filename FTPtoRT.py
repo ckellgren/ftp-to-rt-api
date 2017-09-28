@@ -18,54 +18,54 @@ TOKEN = response['token']
 REQUESTS = [
     {
     'source': '***********/1023_O%27BrienToyotaScion_SL.CSV',
-    'dealer_name': 'O%27Brien Toyota',
+    'dealer_name': 'O\'Brien Toyota',
     'location': '598a965ceda1241df2c4dbcd',
-    'template': '59c27a12491772388fa9fea1',
+    'template': '59c27b9c491772388fa9fea2',
     'sms': False, #email
     'autoselect': True,
     'urls': [],
     },    
     {
     'source': '***********/1023_O%27BrienToyotaScion_SV.CSV',
-    'dealer_name': 'O%27Brien Toyota',
+    'dealer_name': '\'Brien Toyota',
     'location': '598a965ceda1241df2c4dbcd',
-    'template': '59c27a12491772388fa9fea1',
+    'template': '59c27b9c491772388fa9fea2',
     'sms': False, #email
     'autoselect': True,
     'urls': [],
     },    
     {
     'source': '***********/1024_TomO%27BrienChryslerJeepDodgeRamIndianapolis_SL.CSV',
-    'dealer_name': 'Tom O%27Brien Indianapolis',
+    'dealer_name': 'Tom O\'Brien Indianapolis',
     'location': '598aa36a71253f198db39910',
-    'template': '59c27ecb491772388fa9fea4',
+    'template': '59cc1e183c1f2152db4cc4d4',
     'sms': False, #email
     'autoselect': True,
     'urls': [],
     },    
     {
     'source': '***********/1024_TomO%27BrienChryslerJeepDodgeRamIndianapolis_SV.CSV',
-    'dealer_name': 'Tom O%27Brien Indianapolis',
+    'dealer_name': 'Tom O\'Brien Indianapolis',
     'location': '598aa36a71253f198db39910',
-    'template': '59c27ecb491772388fa9fea4',
+    'template': '59cc1e183c1f2152db4cc4d4',
     'sms': False, #email
     'autoselect': True,
     'urls': [],
     },    
     {
     'source': '***********/1027_TomO%27BrienChryslerJeepDodgeRamGreenwood_SL.CSV',
-    'dealer_name': 'Tom O%27Brien Greenwood',
+    'dealer_name': 'Tom O\'Brien Greenwood',
     'location': '598aa36580c8100d2ab483f7',
-    'template': '59c27e15491772388fa9fea3',
+    'template': '59cc1da23c1f2152db4cc4d3',
     'sms': False, #email
     'autoselect': True,
     'urls': [],
     },    
     {
     'source': '***********/1027_TomO%27BrienChryslerJeepDodgeRamGreenwood_SV.CSV',
-    'dealer_name': 'Tom O%27Brien Greenwood',
+    'dealer_name': 'Tom O\'Brien Greenwood',
     'location': '598aa36580c8100d2ab483f7',
-    'template': '59c27e15491772388fa9fea3',
+    'template': '59cc1da23c1f2152db4cc4d3',
     'sms': False, #email
     'autoselect': True,
     'urls': [],
