@@ -1126,6 +1126,24 @@ REQUESTS = [
     'autoselect': True,
     'urls': [],
     },
+    {   
+    'source': '***********/2273_FremontMotorScottsbluffFordLincoln_SL',
+    'dealer_name': 'Fremont Motor Scottsbluff',
+    'location': '598a1db1ef76500ca86e99e9',
+    'template': '599ef0e6112390554486f396',
+    'sms': True, #sms
+    'autoselect': True,
+    'urls': [],
+    },
+    {   
+    'source': '***********/2273_FremontMotorScottsbluffFordLincoln_SV',
+    'dealer_name': 'Fremont Motor Scottsbluff',
+    'location': '598a1db1ef76500ca86e99e9',
+    'template': '599ef0e6112390554486f396',
+    'sms': True, #sms
+    'autoselect': True,
+    'urls': [],
+    },
 ]
 
 ## Searches source files for Recipient data
