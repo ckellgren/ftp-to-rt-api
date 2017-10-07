@@ -22,8 +22,12 @@ REQUESTS = [
     'location': '598a965ceda1241df2c4dbcd',
     'template': '59c27b9c491772388fa9fea2',
     'sms': False, #email
-    'autoselect': True,
-    'urls': [],
+    'autoselect': False,
+    'urls': [
+        '59b2e184fc80ab126592ad18',
+        '598a965ca751d679bb7fc599',
+        '598a965d5dc0547a6da2658b',
+    ],
     },    
     {
     'source': '***********/1023_O%27BrienToyotaScion_SV.CSV',
@@ -31,8 +35,12 @@ REQUESTS = [
     'location': '598a965ceda1241df2c4dbcd',
     'template': '59c27b9c491772388fa9fea2',
     'sms': False, #email
-    'autoselect': True,
-    'urls': [],
+    'autoselect': False,
+    'urls': [
+        '59b2e184fc80ab126592ad18',
+        '598a965ca751d679bb7fc599',
+        '598a965d5dc0547a6da2658b',
+    ],
     },    
     {
     'source': '***********/1024_TomO%27BrienChryslerJeepDodgeRamIndianapolis_SL.CSV',
@@ -40,8 +48,12 @@ REQUESTS = [
     'location': '598aa36a71253f198db39910',
     'template': '59cc1e183c1f2152db4cc4d4',
     'sms': False, #email
-    'autoselect': True,
-    'urls': [],
+    'autoselect': False,
+    'urls': [
+        '598aa36b40d1ca148b080290',
+        '598aa36a7dac447ae12d8ca8',
+        '598aa36b0ceb6b0b186c6d09',
+    ],
     },    
     {
     'source': '***********/1024_TomO%27BrienChryslerJeepDodgeRamIndianapolis_SV.CSV',
@@ -49,8 +61,12 @@ REQUESTS = [
     'location': '598aa36a71253f198db39910',
     'template': '59cc1e183c1f2152db4cc4d4',
     'sms': False, #email
-    'autoselect': True,
-    'urls': [],
+    'autoselect': False,
+    'urls': [
+        '598aa36b40d1ca148b080290',
+        '598aa36a7dac447ae12d8ca8',
+        '598aa36b0ceb6b0b186c6d09',
+    ],
     },    
     {
     'source': '***********/1027_TomO%27BrienChryslerJeepDodgeRamGreenwood_SL.CSV',
@@ -58,8 +74,12 @@ REQUESTS = [
     'location': '598aa36580c8100d2ab483f7',
     'template': '59cc1da23c1f2152db4cc4d3',
     'sms': False, #email
-    'autoselect': True,
-    'urls': [],
+    'autoselect': False,
+    'urls': [
+        '598aa366b053387e3b401fbf',
+        '598aa365edd89c79bb133beb',
+        '598aa3663752a70d293cacc0',
+    ],
     },    
     {
     'source': '***********/1027_TomO%27BrienChryslerJeepDodgeRamGreenwood_SV.CSV',
@@ -67,8 +87,12 @@ REQUESTS = [
     'location': '598aa36580c8100d2ab483f7',
     'template': '59cc1da23c1f2152db4cc4d3',
     'sms': False, #email
-    'autoselect': True,
-    'urls': [],
+    'autoselect': False,
+    'urls': [
+        '598aa366b053387e3b401fbf',
+        '598aa365edd89c79bb133beb',
+        '598aa3663752a70d293cacc0',
+    ],
     },       
     {
     'source': '***********/2111_LouisvilleInfiniti_SL.CSV',
@@ -1123,24 +1147,6 @@ REQUESTS = [
     'location': '5989cc9f88b8bb61e7971715',
     'template': '599deb953049490791792aac',
     'sms': True #sms
-    'autoselect': True,
-    'urls': [],
-    },
-    {   
-    'source': '***********/2273_FremontMotorScottsbluffFordLincoln_SL',
-    'dealer_name': 'Fremont Motor Scottsbluff',
-    'location': '598a1db1ef76500ca86e99e9',
-    'template': '599ef0e6112390554486f396',
-    'sms': True, #sms
-    'autoselect': True,
-    'urls': [],
-    },
-    {   
-    'source': '***********/2273_FremontMotorScottsbluffFordLincoln_SV',
-    'dealer_name': 'Fremont Motor Scottsbluff',
-    'location': '598a1db1ef76500ca86e99e9',
-    'template': '599ef0e6112390554486f396',
-    'sms': True, #sms
     'autoselect': True,
     'urls': [],
     },
