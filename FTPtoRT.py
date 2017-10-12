@@ -1150,6 +1150,60 @@ REQUESTS = [
     'autoselect': True,
     'urls': [],
     },
+     {   
+    'source': '***********/1807_FullertonCDJR_SL.CSV',
+    'dealer_name': 'Fullerton CDJR',
+    'location': '5989c8fdd6250061e4683b4b',
+    'template': '599decb03049490791792ab2',
+    'sms': True, #sms
+    'autoselect': True,
+    'urls': [],
+    },
+    {   
+    'source': '***********/1807_FullertonCDJR_SV.CSV',
+    'dealer_name': 'Fullerton CDJR',
+    'location': '5989c8fdd6250061e4683b4b',
+    'template': '599decb03049490791792ab2',
+    'sms': True, #sms
+    'autoselect': True,
+    'urls': [],
+    },
+    {   
+    'source': '***********/1822_FullertonFIAT_SL.CSV',
+    'dealer_name': 'Fullerton FIAT',
+    'location': '5989ce6b650790497d634f0f',
+    'template': '599ded143049490791792ab4',
+    'sms': True, #sms
+    'autoselect': True,
+    'urls': [],
+    },
+    {   
+    'source': '***********/1822_FullertonFIAT_SV.CSV',
+    'dealer_name': 'Fullerton FIAT',
+    'location': '5989ce6b650790497d634f0f',
+    'template': '599ded143049490791792ab4',
+    'sms': True, #sms
+    'autoselect': True,
+    'urls': [],
+    },
+    {   
+    'source': '***********/1823_FullertonFord_SL.CSV',
+    'dealer_name': 'Fullerton Ford',
+    'location': '5989cca49fd5a96693422668',
+    'template': '599ded643049490791792ab5',
+    'sms': True, #sms
+    'autoselect': True,
+    'urls': [],
+    },
+    {   
+    'source': '***********/1823_FullertonFord_SV.CSV',
+    'dealer_name': 'Fullerton Ford',
+    'location': '5989cca49fd5a96693422668',
+    'template': '599ded643049490791792ab5',
+    'sms': True, #sms
+    'autoselect': True,
+    'urls': [],
+    },
 ]
 
 ## Searches source files for Recipient data
