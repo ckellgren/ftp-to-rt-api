@@ -244,8 +244,12 @@ REQUESTS = [
     'location': '5989e204a9fc097b19a3c90d',
     'template': '59bc3bcc3d164504d147cc73',
     'sms': False, #email
-    'autoselect': True,
-    'urls': [],
+    'autoselect': False,
+    'urls': [
+        '5989e207d6f85e7addf5b7ee',
+        '5989e206a754117be3ed7a1e',
+        '5989e205565aaf797b6262fd',
+    ],
     },    
     {
     'source': '***********/660_HondaofDenton_SV.CSV',
@@ -253,8 +257,12 @@ REQUESTS = [
     'location': '5989e204a9fc097b19a3c90d',
     'template': '59bc3bcc3d164504d147cc73',
     'sms': False, #email
-    'autoselect': True,
-    'urls': [],
+    'autoselect': False,
+    'urls': [
+        '5989e207d6f85e7addf5b7ee',
+        '5989e206a754117be3ed7a1e',
+        '5989e205565aaf797b6262fd',
+    ],
     },    
     {
     'source': '***********/98_LakeNormanHyundai_SL.CSV',
