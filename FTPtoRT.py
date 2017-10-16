@@ -1286,4 +1286,3 @@ for request in REQUESTS:
     }, json=payload, auth=('username', TOKEN))
 
     print response.json()
-
