@@ -738,8 +738,12 @@ REQUESTS = [
     'location': '598a255a144cf305281d9736',
     'template': '599df05f3049490791792aba',
     'sms': True #sms
-    'autoselect': True,
-    'urls': [],
+    'autoselect': False,
+    'urls': [
+        '598a255baa9bc57b18929f21',
+        '598a255bd411d378b3285087',
+        '598a255cf2e8617aecf46740',
+    ],
     },
     {   
     'source': '***********/2513_KeyesHyundai_SV.CSV',
@@ -747,8 +751,12 @@ REQUESTS = [
     'location': '598a255a144cf305281d9736',
     'template': '599df05f3049490791792aba',
     'sms': True #sms
-    'autoselect': True,
-    'urls': [],
+    'autoselect': False,
+    'urls': [
+        '598a255baa9bc57b18929f21',
+        '598a255bd411d378b3285087',
+        '598a255cf2e8617aecf46740',
+    ],
     },
     {   
     'source': '***********/2523_StephenWadeToyota_SL.CSV',
@@ -1271,6 +1279,7 @@ for request in REQUESTS:
         'location_id': request['location'],
         'template_id': request['template'],
         'account_id': '5988b386630e954983aea8b4', # Account ID is hardcoded
+        'use_header_image': 'true', # Uses header image from template (if there is one)
     }
 
     print payload
@@ -1286,3 +1295,4 @@ for request in REQUESTS:
     }, json=payload, auth=('username', TOKEN))
 
     print response.json()
+
