@@ -974,8 +974,12 @@ REQUESTS = [
     'location': '598a254e90a0d8146ac851a0',
     'template': '599df36b3049490791792ac9',
     'sms': True #sms
-    'autoselect': True,
-    'urls': [],
+    'autoselect': False,
+    'urls': [
+        '598a2551aa4abf0b18398591',
+        '598a254fcda66e7cfbe72cd3',
+        '598a254f29ce6c19a5d1fbae',
+    ],
     },
     {   
     'source': '***********/3078_MercedToyota_SV.CSV',
@@ -983,8 +987,12 @@ REQUESTS = [
     'location': '598a254e90a0d8146ac851a0',
     'template': '599df36b3049490791792ac9',
     'sms': True #sms
-    'autoselect': True,
-    'urls': [],
+    'autoselect': False,
+    'urls': [
+        '598a2551aa4abf0b18398591',
+        '598a254fcda66e7cfbe72cd3',
+        '598a254f29ce6c19a5d1fbae',
+    ],
     },
     {   
     'source': '***********/308_BobSmithToyota_SL.CSV',
