@@ -1240,6 +1240,24 @@ REQUESTS = [
     'autoselect': True,
     'urls': [],
     },
+    {   
+    'source': '**********/3145_BesseyMotorSales_SV.CSV',
+    'dealer_name': 'Bessey Motor Sales',
+    'location': '59ca9e46eadcca597764f59a',
+    'template': '59caa3c9c7092725252b5812',
+    'sms': True, #sms
+    'autoselect': True,
+    'urls': [],
+    },
+    {   
+    'source': '**********/3145_BesseyMotorSales_SL.CSV',
+    'dealer_name': 'Bessey Motor Sales',
+    'location': '59ca9e46eadcca597764f59a',
+    'template': '59caa3c9c7092725252b5812',
+    'sms': True, #sms
+    'autoselect': True,
+    'urls': [],
+    },
 ]
 
 ## Searches source files for Recipient data
