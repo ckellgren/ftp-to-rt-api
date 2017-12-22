@@ -1258,6 +1258,24 @@ REQUESTS = [
     'autoselect': True,
     'urls': [],
     },
+    {   
+    'source': '**********/3204_FresnoChryslerJeepDodgeRAM_SV',
+    'dealer_name': 'Fresno CDJR',
+    'location': '59e90c6d733dc82f00fa22ab',
+    'template': '59e90f48b1afa9623777f593',
+    'sms': True, #sms
+    'autoselect': True,
+    'urls': [],
+    },
+    {   
+    'source': '**********/3204_FresnoChryslerJeepDodgeRAM_SL',
+    'dealer_name': 'Fresno CDJR',
+    'location': '59e90c6d733dc82f00fa22ab',
+    'template': '59e90f48b1afa9623777f593',
+    'sms': True, #sms
+    'autoselect': True,
+    'urls': [],
+    },
 ]
 
 ## Searches source files for Recipient data
