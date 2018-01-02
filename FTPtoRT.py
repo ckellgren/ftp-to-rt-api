@@ -1276,6 +1276,24 @@ REQUESTS = [
     'autoselect': True,
     'urls': [],
     },
+    {   
+    'source': '**********/87_FortMillHyundai_SV.CSV',
+    'dealer_name': 'Fort Mill Hyundai',
+    'location': '5a28dca7da980b1093cc4a8e',
+    'template': '5a3012362192d4095994633b',
+    'sms': False, #email
+    'autoselect': True,
+    'urls': [],
+    },
+    {   
+    'source': '**********/87_FortMillHyundai_SL.CSV',
+    'dealer_name': 'Fort Mill Hyundai',
+    'location': '5a28dca7da980b1093cc4a8e',
+    'template': '5a3012362192d4095994633b',
+    'sms': False, #email
+    'autoselect': True,
+    'urls': [],
+    },
 ]
 
 ## Searches source files for Recipient data
