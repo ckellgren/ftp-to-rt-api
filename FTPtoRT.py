@@ -1294,6 +1294,23 @@ REQUESTS = [
     'autoselect': True,
     'urls': [],
     },
+    'source': '**********/859_ClovisCDJR_SL.CSV',
+    'dealer_name': 'Clovis CDJR',
+    'location': '59e8c3991892a41a9001d1bd',
+    'template': '59e8e0dbb9613137266e8904',
+    'sms': True, #email
+    'autoselect': True,
+    'urls': [],
+    },
+    {   
+    'source': '**********/859_ClovisCDJR_SV.CSV',
+    'dealer_name': 'Clovis CDJR',
+    'location': '59e8c3991892a41a9001d1bd',
+    'template': '59e8e0dbb9613137266e8904',
+    'sms': True, #email
+    'autoselect': True,
+    'urls': [],
+    },
 ]
 
 ## Searches source files for Recipient data
